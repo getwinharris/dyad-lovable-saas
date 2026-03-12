@@ -1,16 +1,16 @@
 {
-  "name": "dyad",
-  "version": "0.39.0",
-  "description": "Free, local, open-source AI app builder",
-  "keywords": [],
-  "license": "MIT",
+  "name": "bapx-auto",
+  "version": "1.0.0",
+  "description": "bapX Auto - End-to-end AI automation platform with multi-agent support, GraphRAG lifetime memory, and cloud-first PWA",
+  "keywords": ["ai", "automation", "agents", "graphrag", "pwa", "multi-model"],
+  "license": "Apache-2.0",
   "author": {
-    "name": "Will Chen",
-    "email": "willchen90@gmail.com"
+    "name": "bapX Team",
+    "email": "team@bapx.auto"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dyad-sh/dyad.git"
+    "url": "https://github.com/getwinharris/dyad-lovable-saas.git"
   },
   "main": ".vite/build/main.js",
   "scripts": {

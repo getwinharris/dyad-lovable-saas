@@ -1,0 +1,46 @@
+[project]
+name = "bapx-auto"
+version = "1.0.0"
+description = "End-to-end AI automation platform with multi-agent support, GraphRAG lifetime memory, and cloud-first PWA"
+authors = [{ name = "bapX Team", email = "team@bapx.auto" }]
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi==0.115.12",
+  "uvicorn==0.27.1",
+  "python-dotenv==1.0.1",
+  "pydantic==2.10.6",
+  "pydantic-settings==2.7.1",
+  "supabase==2.17.0",
+  "redis==5.2.1",
+  "minio==7.2.15",
+  "litellm>=1.80.11",
+  "ai-sdk>=6.0.68",
+  "pgvector==0.3.6",
+  "psycopg[binary]>=3.3.2",
+  "sqlalchemy>=2.0.45",
+  "structlog==25.4.0",
+  "python-multipart==0.0.20",
+  "cryptography>=41.0.0",
+  "pyjwt==2.10.1",
+  "stripe==11.6.0",
+  "e2b-code-interpreter==1.2.0",
+  "daytona-sdk>=0.115.0",
+  "openai>=1.99.5",
+  "anthropic>=0.69.0",
+  "orjson>=3.11.1",
+  "httpx>=0.27.0",
+  "aiohttp==3.12.0",
+]
+
+[project.urls]
+homepage = "https://bapx.auto"
+repository = "https://github.com/getwinharris/dyad-lovable-saas"
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
